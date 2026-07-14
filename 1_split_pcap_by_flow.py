@@ -2,6 +2,7 @@ from scapy.all import PcapReader, PcapWriter, IP, TCP, UDP
 import random
 import sys
 
+
 if len(sys.argv) < 5:
     print("Usage: python split_pcap_by_flow.py <input_pcap> <output_training> <output_validation> <output_test>")
     sys.exit(1)
